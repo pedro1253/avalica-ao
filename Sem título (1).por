@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    // declaração de variavel
+    inteiro primeiroValor,segundoValor,soma, produto
+    escreva(" escolha o primeiro valor ")
+    leia(primeiroValor)
+    escreva(" escolha o segundo valor ")
+    leia(segundoValor)
+    //operação
+    se ( primeiroValor == segundoValor){
+      primeiroValor + segundoValor = soma
+    }
+    se (primeiroValor != segundoValor){
+      primeiroValor * segundoValor = produto
+    }
+    //dados 
+    escreva( "o primeiro valor e o segundo for igual o resultado é: " soma)
+    escreva (" o sefundo valor e diferente do primeiro o resultado é  "produto)
+  }
+}

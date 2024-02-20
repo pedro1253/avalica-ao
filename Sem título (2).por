@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    // declarando variavel 
+    real primeiraNota, segundaNota, media
+    escreva ("digite a primeira nota do aluno ")
+    leia (primeiraNota)
+    escreva ("digite a segunda nota do aluno ")
+    leia(segundaNota)
+    //calculo 
+    media= (primeiraNota + segundaNota) / 2
+    se ( media > 6){
+      escreva ("parabens voçe foi aprovado ") 
+    }
+    senao 
+    escreva (" aluno reprovado")
+  }
+}
