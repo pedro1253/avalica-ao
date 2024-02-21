@@ -2,6 +2,7 @@ programa {
   funcao inicio() {
     cadeia cor
     inteiro resultado
+    \\ cores disponivel: vermelho,azul,amarelo,verde
     escreva (" digite a cor do cd desejado ")
     leia (cor)
     escolha (cor){
@@ -19,7 +20,7 @@ programa {
       resultado = 10 
       pare 
     }
-    escreva (" o valor do cd é R$ ", resultado)
+    escreva (" o valor do cd Ã© R$ ", resultado)
 
   }
 }
