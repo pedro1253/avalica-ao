@@ -6,7 +6,7 @@ programa {
     leia(primeiroValor)
     escreva ("digite o segundo valor ")
     leia (segundoValor)
-    escreva (" agora escreva a operação desejada ")
+    escreva (" agora escreva a operaÃ§Ã£o desejada ")
     leia (operacao)
     escolha (operacao){
       caso "+":
@@ -22,7 +22,7 @@ programa {
       resultado= primeiroValor / segundoValor
       pare  
     }
-    escreva(" o resultado da operação é  ", resultado )
+    escreva(" o resultado da operaÃ§Ã£o Ã©  ", resultado )
   
   }
 }
