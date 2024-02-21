@@ -1,0 +1,37 @@
+
+  funcao inicio() {
+    real emprestimo, salario, prestacao, maximo,porcentagem, parcela
+    escreva (" \n digite o valor do emprestimo " )
+    leia(emprestimo)
+    escreva (" \n digite quanto voce ganha por mes ")
+    leia (salario)
+    escreva (" \n em quantas vezes deseja paga o emprestimo ? ")
+    leia (parcela)
+    maximo= salario * 10 
+    prestacao= emprestimo / parcela
+    porcentagem = prestacao * 30 / 100
+    se (emprestimo > maximo ){
+      escreva (" emprestimo negado")
+    }
+    se ( porcentagem > salario ) { 
+      escreva (" \n  emprestimo negado")
+    }
+    senao {
+      escreva (" emprestimo aprovado")
+      escreva (" o valor do emprestimo � de ", emprestimo)
+      escreva (" \n o seu salario �  ",salario)
+      escreva ("\n o total de parcela foi : ",parcela)
+      escreva ("\n cada presta��o fico o valor de  ", prestacao)
+    }
+    
+    
+    }
+
+
+    
+  }
+}
+to ")
+    leia (preco)
+    se (quantidade <= 5 ){
+      desconto= preco * 2 / 100 
