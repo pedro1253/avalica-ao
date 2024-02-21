@@ -9,7 +9,7 @@ programa {
     //calculo 
     media= (primeiraNota + segundaNota) / 2
     se ( media > 6){
-      escreva ("parabens voçe foi aprovado ") 
+      escreva ("parabens voÃ§e foi aprovado ") 
     }
     senao 
     escreva (" aluno reprovado")
