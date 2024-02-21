@@ -1,0 +1,50 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     caracter combustivel
+	     real litro, valor, desconto ,resultado = 0
+	     //  gasolina R$ 6,59 e o preço do litro do álcool é R$ 3,79.
+		escreva("Alcool ate 25L tem o desconto de 2% por litro")
+		escreva("\n Alcool acima de 25l tem o desconto 4%")
+		escreva("\n Gasolina até 25L 3% por litro ")
+		escreva("\n acima de 25l 5% por litro")
+
+		escreva ("A- Alcool e G- Gasolina? ")
+		leia(combustivel)
+		
+		escolha(combustivel){
+			caso 'A':
+			escreva ("alcool")
+			pare
+			caso 'G':
+			escreva ("gasolina")
+			pare
+		}
+		escreva(" \n quantos litros ")
+		leia(litro)
+		se (combustivel == 'A' e litro <= 25){
+			valor= litro * 3.79
+			desconto= valor * 2 /100
+			resultado = valor - desconto
+		}
+		se (combustivel == 'A' e litro >25){
+			valor = litro * 3.79
+			desconto =  valor * 4 /100
+			resultado = valor - desconto
+		}
+		se (combustivel == 'G' e litro <= 25){
+			valor = litro * 6.59
+			desconto= valor * 3 / 100
+			resultado = valor - desconto
+		}
+		se (combustivel == 'G' e litro > 25){
+		valor = litro * 6.59 
+		desconto = valor * 5 / 100
+		resultado = valor - desconto
+		}
+		escreva ("\n voçe pediu ", litro," litros")
+		escreva ("\n voçe ira paga o total de ", resultado)
+	}
+}
