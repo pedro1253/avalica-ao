@@ -11,7 +11,7 @@ programa {
       escreva ("  a + b é menor que c")
     }
     se (a + b > c ){
-      escreva(" a +b é maior que C")
+      escreva(" a + b é maior que C")
     }
   }
 }
