@@ -1,0 +1,27 @@
+// variavel
+		real preco, valorTotal, desconto, resultado, quantidade
+		cadeia produto
+		// informação
+		escreva("digite o produto desejado ")
+		leia (produto)
+		escreva("digite a quantidade desejada ")
+		leia (quantidade)
+		escreva("o preço do produto é :")
+		leia(preco)
+		//calculo 
+		valorTotal = quantidade * preco
+		se (quantidade <= 5 ) {
+			desconto = valorTotal * 2 / 100 
+			resultado = valorTotal - desconto
+		}
+    se (quantidade > 5 e quantidade <= 10){
+      desconto = valorTotal * 3/ 100
+      resultado = valorTotal - desconto
+    }
+    se(quantidade > 10){
+      desconto = valorTotal * 5 / 100
+      resultado = valorTotal - desconto
+    }
+		escreva (" o valor é de ",resultado, "aplicando ", desconto ,"%")
+    escreva (" \n o produto desejado é : ",produto)
+    
