@@ -1,0 +1,39 @@
+
+  programa {
+  funcao inicio() {
+    real maca,morango, precom, valorTotal, desconto, resultado, precomo
+    // cadarpio
+    escreva(" tabela de preço ")
+    escreva(" \n morango até 5kg - R$ 2,50 por kg e acima de 5kg - 2,20 ")
+    escreva ("\n maça até 5kg - R$ 1,80 po kg e acima de 5kg - 1,50 ")
+    escreva("\n se a compra for maior que R$ 25 ou igual, vo�e ganha 10 % de desconto")
+    // calculo e condição
+    escreva (" quantos kilos de maça? ")
+    leia(maca)
+    escreva ("quantos kilo de morango? ")
+    leia(morango)
+    se (maca <= 5 ){
+      precom = maca * 1.80
+    }
+    se (maca > 5 ){
+      precom = maca * 1.50
+    }
+    se (morango <= 5 ){
+    	precomo = morango * 2.50
+    }
+    se (morango > 5){
+    	precomo = morango *2.20
+    }
+    valorTotal= precomo + precom
+    se (valorTotal > 25 ){
+    	desconto = valorTotal * 10 / 100
+    	resultado = valorTotal - desconto 
+    }
+    escreva ("voçe escolheu ",maca, "kilos de maça ")
+    escreva(" \n mais",morango, "kilos de morango")
+    escreva(" o valor total foi de ", valorTotal )
+    
+    
+  
+  }
+}
