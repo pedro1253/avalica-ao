@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    real a, b, c 
+    escreva ( "escolha o primeiro valor A : ")
+    leia(a)
+    escreva (" o segundo valor B : ")
+    leia(b)
+    escreva( "o terceiro valor c :")
+    leia (c)
+    se ( a + b < c){
+      escreva ("  a + b é menor que c")
+    }
+    se (a + b > c ){
+      escreva(" a +b é maior que C")
+    }
+  }
+}
