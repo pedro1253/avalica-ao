@@ -1,0 +1,22 @@
+      programa
+{
+	
+	funcao inicio()
+	{
+		cadeia nome,sexo,estado
+		inteiro tempo=0
+		escreva (" qual o seu nome ? " )
+		leia (nome)
+		escreva("qual o seu sexo ? f/m? ")
+		leia (sexo)
+		escreva (" qual o seu estado civil? ")
+		leia (estado)
+		se (sexo == "f" e estado == "casada"){
+			escreva( "quanto tempo de casada ? ")
+			leia (tempo) 
+		}
+		escreva ("seu nome é ",nome)
+		escreva ("\n voçe tem ", tempo,"de casada")
+		
+	}
+}
