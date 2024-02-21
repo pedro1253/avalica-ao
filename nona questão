@@ -18,10 +18,10 @@
     }
     senao {
       escreva (" emprestimo aprovado")
-      escreva (" o valor do emprestimo � de ", emprestimo)
-      escreva (" \n o seu salario �  ",salario)
+      escreva (" o valor do emprestimo é de ", emprestimo)
+      escreva (" \n o seu salario é ",salario)
       escreva ("\n o total de parcela foi : ",parcela)
-      escreva ("\n cada presta��o fico o valor de  ", prestacao)
+      escreva ("\n cada prestação fico com o valor de  ", prestacao)
     }
     
     
